@@ -182,4 +182,3 @@ DOCUMENTACIÓN E INFORME FINAL
 
 ---
 
-**¡Listo para usar y visualizar en GitHub!**
