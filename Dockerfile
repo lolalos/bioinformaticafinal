@@ -8,5 +8,9 @@ COPY . .
 # Instalar dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Comando para ejecutar tu script principal
-CMD ["python", "main.py"]
+
+# Exponer el puerto para Railway
+EXPOSE 8000
+
+# Comando para ejecutar la API principal con Uvicorn
+CMD ["uvicorn", "fase3_api:app", "--host", "0.0.0.0", "--port", "8000"]
