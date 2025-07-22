@@ -274,7 +274,7 @@ async def root():
             <div>© {datetime.now().year} Proyecto Semestral Bioinformática | universidad nacional san antonio abad del cusco escuela profesional ing informatica y de sistemas</div>
             <div class="mt-4 flex justify-center gap-4">
                 <a href="/docs" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Acceder a API</a>
-                <a href="https://github.com/LOVIT/proyecto_cancer_prostata" target="_blank" class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800 transition">Acceder al código fuente</a>
+                <a href="https://github.com/lolalos/bioinformaticafinal" target="_blank" class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800 transition">Acceder al código fuente</a>
             </div>
         </footer>
         <script>
