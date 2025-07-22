@@ -6,6 +6,10 @@ WORKDIR /app
 COPY . .
 
 # Instalar dependencias
+
+# Instalar librería del sistema necesaria para LightGBM
+RUN apt-get update && apt-get install -y libgomp1
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 
