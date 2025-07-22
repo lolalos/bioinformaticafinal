@@ -2,6 +2,7 @@ pandas
 numpy
 scipy
 scikit-learn
+scikit-learn==1.7.0
 matplotlib
 seaborn
 
@@ -16,6 +17,8 @@ gunicorn  # para producción con Flask/FastAPI
 python-dotenv  # manejo de variables de entorno
 
 lightgbm
+
+python-multipart
 
 jupyter  # para notebooks
 
