@@ -1,6 +1,20 @@
 pandas
+numpy
+scipy
 scikit-learn
-flask  # si vas a usar una API web
+matplotlib
+seaborn
 
+biopython
+requests
+
+flask
 fastapi
 uvicorn
+
+gunicorn  # para producción con Flask/FastAPI
+python-dotenv  # manejo de variables de entorno
+
+jupyter  # para notebooks
+
+# Elimina el comentario en la línea de Flask para evitar errores
